@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "coder.greyfei.android"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "coder.greyfei.android"

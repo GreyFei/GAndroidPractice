@@ -23,6 +23,31 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- region Package: activity -->
+        <activity android:name="coder.greyfei.android.activity.PackageActivityEntryActivity" />
+        <activity android:name="coder.greyfei.android.activity.ALActivityA" />
+        <activity android:name="coder.greyfei.android.activity.ALActivityB" />
+        <activity
+            android:name="coder.greyfei.android.activity.ALActivityC"
+            android:configChanges="orientation"
+            />
+        <activity
+            android:name="coder.greyfei.android.activity.ALActivityD"
+            android:configChanges="orientation|screenSize"
+            />
+        <activity android:name="coder.greyfei.android.activity.ALTestEntryActivity" />
+        <!-- Activity启动模式 -->
+        <activity android:name="coder.greyfei.android.activity.ALMTestEntryActivity" />
+        <activity android:name="coder.greyfei.android.activity.ALMSingleInstanceTestEntryActivity" />
+        <activity android:name="coder.greyfei.android.activity.ALMSingleInstanceTestActivity1" />
+        <activity android:name="coder.greyfei.android.activity.ALMSingleInstanceTestActivity2"
+            android:launchMode="singleInstance"
+            />
+        <activity android:name="coder.greyfei.android.activity.ALMSingleInstanceTestActivity3" />
+
+        <!-- endregion -->
+
     </application>
 
 </manifest>
