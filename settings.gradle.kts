@@ -22,3 +22,4 @@ dependencyResolutionManagement {
 rootProject.name = "GAndroidPractice"
 include(":app")
 include(":kotlin-language-features")
+include(":leetcode")
