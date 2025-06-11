@@ -9,7 +9,7 @@ package coder.greyfei.leetcode
  * [146. LRU缓存机制](https://leetcode.cn/problems/lru-cache/description/)
  * 实现方式：哈希表 + 双向链表。
  */
-class LRUCache(capacity: Int) {
+private class LRUCache(capacity: Int) {
 
     private val mCapacity = capacity
     private val mHashMap: HashMap<Int, Node> = hashMapOf()
@@ -57,7 +57,7 @@ class LRUCache(capacity: Int) {
 
 }
 
-class Node(
+private class Node(
     var key: Int,
     var value: Int,
 ) {
@@ -71,7 +71,7 @@ class Node(
 
 }
 
-class CustomLinkedList {
+private class CustomLinkedList {
 
     private var mSize = 0
     // 伪头部节点
@@ -140,6 +140,6 @@ private fun testCase1() {
     println("testCase1 Pass!")
 }
 
-fun main() {
+private fun main() {
     testCase1()
 }
