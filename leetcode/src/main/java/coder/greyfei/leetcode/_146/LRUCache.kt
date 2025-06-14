@@ -1,4 +1,4 @@
-package coder.greyfei.leetcode
+package coder.greyfei.leetcode._146
 
 /**
  * Created by GreyFei on 2025/6/9

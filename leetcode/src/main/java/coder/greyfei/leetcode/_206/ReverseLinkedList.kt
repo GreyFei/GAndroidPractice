@@ -1,4 +1,4 @@
-package coder.greyfei.leetcode
+package coder.greyfei.leetcode._206
 
 /**
  * [206. 反转链表](https://leetcode.cn/problems/reverse-linked-list/description/)
